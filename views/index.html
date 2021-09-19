@@ -1,0 +1,84 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>EWD 2020</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  {% include dependencies.html %}
+
+  <link rel="stylesheet" href="css/page.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+    integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+    crossorigin="anonymous"></script>
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  {% include header.html %}
+  {% include landing.html %}
+  <br>
+  <br>
+  <br>
+  <main id="content-wrapper" class="content">
+    <div id="sidebar-wrapper">
+      <div id="sticky-sidebar" class="sidebar">
+        <h2>EWD 2020</h2>
+        <ol>
+          <li class="side-nav"><a href="#about">About</a></li>
+          <li class="side-nav"><a href="#speakers">Speakers</a></li>
+          <li class="side-nav"><a href="#orgs">Organizations</a></li>
+        </ol>
+      </div>
+    </div>
+    <div class="content" id="main-body">
+      {% include info.html %}
+    </div>
+  </main>
+  <div class="content">
+    <hr>
+    <div><input type="text" id="search" onkeyup="search()" placeholder="Search for an organization..."></div>
+    <div class="card-grid">
+      {% for org in orgs %}
+      
+      <div class="card {{ org.id }}" id="{{ org.id }}" data-names="{{ org.full_name }} {{ org.short_name }}" onclick="location.href='{{ org.path }}';">
+        <div class="card-img-wrapper"><img src="{{ "/data/" | append: org.path | append: "/logo.png" | url}}"
+            class="card-img"></div>
+        <div class="center">
+          <div class="card-text">
+            <b>{{ org.full_name }}</b><br>
+            Floor {{ org.floor }}, Table {{ org.table }}
+            <br>
+            <a href="{{ org.path }}">More Info</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+  {% include footer.html %}
+
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-178402682-1', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

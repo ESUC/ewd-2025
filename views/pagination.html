@@ -1,0 +1,101 @@
+---
+pagination:
+    data: orgs
+    size: 1
+    alias: org
+addAllPagesToCollections: true
+permalink: "/{{ org.path }}/"
+---
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ org.full_name }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    {% include dependencies.html %}
+
+    <link rel="stylesheet" href="{{ "/css/orgs.css" | url }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+        integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+        crossorigin="anonymous"></script>
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <a href="{{ "/#" | append: org.path | url }}" id="back-text"> ‹ back to EWD 2020</a>
+        <div class="card {{ org.id }}" id="{{ org.id }}" data-names="{{ org.full_name }} {{ org.short_name }}">
+            <div class="card-img-wrapper"><img src="{{ "/data/" | append: org.path | append: "/logo.png" | url }}"
+                    class="card-img">
+                <div class="id-wrapper">
+                    <h3>{{ org.full_name }}</h3>
+                    {% if org.short_name != "" %}
+                    <em>{{ org.short_name }}</em><br>
+                    {% endif %}
+                    Floor {{ org.floor }}, Table {{ org.table }}
+                    <hr>
+                    <!-- <span class="social">
+                        {% if org.website != "" %}
+
+                        {% endif %}
+                        {% if org.email != "" %}
+
+                        {% endif %}
+                        {% if org.facebook != "" %}
+                            <a href="{{ org.facebook }}" class="social-icon" style="background-image: url({{ "/img/facebook.svg" | url }})"></a>
+                        {% endif %}
+                        {% if org.twitter != "" %}
+
+                        {% endif %}
+                        {% if org.instagram != "" %}
+
+                        {% endif %}
+                        {% if org.discord != "" %}
+
+                        {% endif %}
+                    </span> -->
+                </div>
+            </div>
+
+            <!-- website	email	facebook	twitter@	instagram@	discord -->
+            <div class="card-right">
+                <div class="spacer">
+                    <div class="about">About {{ org.full_name }}</div>
+                </div>
+                <div class="card-text">
+                    <p class="card-tagline">{{ org.tagline }}</p>
+                    <br>
+                    <div class="card-description">
+                        {{ org.description }}
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <svg class="close" width="27" height="27" viewBox="0 0 27 27" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <a href="{{ "/#" | append: org.path | url }}">
+                    <rect x="1" y="1" width="25" height="25" fill="white" fill-opacity="0" />
+                    <path d="M1 1L26 26M26 1L1 26" stroke="black" />
+                </a>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-178402682-1', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

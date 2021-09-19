@@ -1,0 +1,24 @@
+{
+  "name": "ewd-2020",
+  "version": "1.0.0",
+  "description": "Website for 2020 Engineering Welcome Day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ESUC/ewd-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ESUC/ewd-2020/issues"
+  },
+  "homepage": "https://github.com/ESUC/ewd-2020#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
