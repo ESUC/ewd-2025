@@ -41,28 +41,8 @@ permalink: "/{{ org.id }}/"
                     {% if org.short_name != "" %}
                     <em>{{ org.short_name }}</em><br>
                     {% endif %}
-                    Floor {{ org.floor }}, Table {{ org.table }}
+                    {{ org.location }}, Table {{ org.table }}
                     <hr>
-                    <!-- <span class="social">
-                        {% if org.website != "" %}
-
-                        {% endif %}
-                        {% if org.email != "" %}
-
-                        {% endif %}
-                        {% if org.facebook != "" %}
-                            <a href="{{ org.facebook }}" class="social-icon" style="background-image: url({{ "/img/facebook.svg" | url }})"></a>
-                        {% endif %}
-                        {% if org.twitter != "" %}
-
-                        {% endif %}
-                        {% if org.instagram != "" %}
-
-                        {% endif %}
-                        {% if org.discord != "" %}
-
-                        {% endif %}
-                    </span> -->
                 </div>
             </div>
 
@@ -74,6 +54,30 @@ permalink: "/{{ org.id }}/"
                 <div class="card-text">
                     <div class="card-description">
                         {{ org.description }}
+                    </div>
+                    <div class="social">
+                        {% if org.website != "" %}
+                        <p>Website: <a href="{{ org.website }}">{{ org.website }}</a></p>
+                        {% endif %}
+                        {% if org.instagram != "" %}
+                        <p>Instagram: <a href="https://www.instagram.com/{{ org.instagram }}">@{{ org.instagram }}</a></p>
+
+                        {% endif %}
+                        {% if org.facebook != "" %}
+                        <p>Facebook: <a href="{{ org.facebook }}">{{ org.facebook }}</a></p>
+                        {% endif %}
+                        {% if org.discord != "" %}
+                        <p>Join us at: <a href="{{ org.discord }}">{{ org.discord }}</a></p>
+
+                        {% endif %}
+                        {% if org.linktree != "" %}
+                        <p>Linktree: <a href="{{ org.linktree }}">{{ org.linktree }}</a></p>
+
+                        {% endif %}
+                        {% if org.mailing_list != "" %}
+                        <p>Sign up! <a href="{{ org.mailing_list }}">{{ org.mailing_list }}</a></p>
+
+                        {% endif %}
                     </div>
                     <hr>
                 </div>
