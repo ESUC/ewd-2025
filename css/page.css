@@ -392,8 +392,14 @@ li.side-nav {
     .card-grid {
         grid-template-columns: 1fr;
     }
-
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 400px;
+    }
 }
+
 
 @-moz-keyframes unspin {
     100% {
