@@ -1,4 +1,4 @@
-# ewd-2020
-Website for 2020 Engineering Welcome Day 
+# ewd-2021
+Website for 2021 Engineering Welcome Day 
 
-ESUC 2020
+ESUC 2021
