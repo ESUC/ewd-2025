@@ -4,7 +4,7 @@ pagination:
     size: 1
     alias: org
 addAllPagesToCollections: true
-permalink: "/{{ org.path }}/"
+permalink: "/{{ org.id }}/"
 ---
 
 <!doctype html>
@@ -32,9 +32,9 @@ permalink: "/{{ org.path }}/"
 
 <body>
     <div class="page-wrapper">
-        <a href="{{ "/#" | append: org.path | url }}" id="back-text"> ‹ back to EWD 2020</a>
+        <a href="{{ "/#" | append: org.id | url }}" id="back-text"> ‹ back to EWD 2021</a>
         <div class="card {{ org.id }}" id="{{ org.id }}" data-names="{{ org.full_name }} {{ org.short_name }}">
-            <div class="card-img-wrapper"><img src="{{ "/data/" | append: org.path | append: "/logo.png" | url }}"
+            <div class="card-img-wrapper"><img src="{{ "/data/" | append: org.id | append: "/logo.png" | url }}"
                     class="card-img">
                 <div class="id-wrapper">
                     <h3>{{ org.full_name }}</h3>
@@ -72,8 +72,6 @@ permalink: "/{{ org.path }}/"
                     <div class="about">About {{ org.full_name }}</div>
                 </div>
                 <div class="card-text">
-                    <p class="card-tagline">{{ org.tagline }}</p>
-                    <br>
                     <div class="card-description">
                         {{ org.description }}
                     </div>
@@ -82,7 +80,7 @@ permalink: "/{{ org.path }}/"
             </div>
             <svg class="close" width="27" height="27" viewBox="0 0 27 27" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
-                <a href="{{ "/#" | append: org.path | url }}">
+                <a href="{{ "/#" | append: org.id | url }}">
                     <rect x="1" y="1" width="25" height="25" fill="white" fill-opacity="0" />
                     <path d="M1 1L26 26M26 1L1 26" stroke="black" />
                 </a>

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>EWD 2020</title>
+  <title>EWD 2021</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,9 +30,10 @@
   <main id="content-wrapper" class="content">
     <div id="sidebar-wrapper">
       <div id="sticky-sidebar" class="sidebar">
-        <h2>EWD 2020</h2>
+        <h2>EWD 2021</h2>
         <ol>
           <li class="side-nav"><a href="#about">About</a></li>
+          <li class="side-nav"><a href="#schedule">Schedule</a></li>
           <li class="side-nav"><a href="#speakers">Speakers</a></li>
           <li class="side-nav"><a href="#orgs">Organizations</a></li>
         </ol>
@@ -48,15 +49,15 @@
     <div class="card-grid">
       {% for org in orgs %}
       
-      <div class="card {{ org.id }}" id="{{ org.id }}" data-names="{{ org.full_name }} {{ org.short_name }}" onclick="location.href='{{ org.path }}';">
-        <div class="card-img-wrapper"><img src="{{ "/data/" | append: org.path | append: "/logo.png" | url}}"
+      <div class="card {{ org.id }}" id="{{ org.id }}" data-names="{{ org.full_name }} {{ org.short_name }}" onclick="location.href='{{ org.id }}';">
+        <div class="card-img-wrapper"><img src="{{ "/data/" | append: org.id | append: "/logo.png" | url}}"
             class="card-img"></div>
         <div class="center">
           <div class="card-text">
             <b>{{ org.full_name }}</b><br>
-            Floor {{ org.floor }}, Table {{ org.table }}
+            {{ org.location }}, Table {{ org.table }}
             <br>
-            <a href="{{ org.path }}">More Info</a>
+            <a href="{{ org.id }}">More Info</a>
           </div>
         </div>
       </div>
