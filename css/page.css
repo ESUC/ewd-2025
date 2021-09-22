@@ -356,6 +356,11 @@ li.side-nav {
     }
 }
 
+#mobile-header {
+    display: none;
+    font-size: 3em;
+}
+
 @media screen and (max-width: 900px) {
     #sidebar-wrapper {
         display: none;
@@ -366,9 +371,28 @@ li.side-nav {
     #nav-bar {
         display: none;
     }
+    #landing-background {
+        display: none;
+    }
+    #landing-break {
+        display: none;
+    }
+    #landing-sign {
+        display: none;
+    }
+    #landing-ground {
+        display: none;
+    }
+    #mobile-header {
+        display: block;
+    }
+    .content {
+        max-width: 320px;
+    }
     .card-grid {
         grid-template-columns: 1fr;
     }
+
 }
 
 @-moz-keyframes unspin {
