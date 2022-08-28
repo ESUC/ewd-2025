@@ -10,7 +10,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("android-chrome-192x192.png");
     eleventyConfig.addPassthroughCopy("android-chrome-512x512.png");
     eleventyConfig.addPassthroughCopy("site.webmanifest");
-    
+    eleventyConfig.setLiquidOptions({
+        dynamicPartials: false,
+        strictFilters: false,
+    });
 
     return {
         passthroughFileCopy: true,
