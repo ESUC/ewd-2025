@@ -1,7 +1,7 @@
 {
-  "name": "ewd-2021",
+  "name": "ewd-2022",
   "version": "1.0.0",
-  "description": "Website for 2021 Engineering Welcome Day",
+  "description": "Website for 2022 Engineering Welcome Day",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ESUC/ewd-2021.git"
+    "url": "git+https://github.com/ESUC/ewd-2022.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ESUC/ewd-2021/issues"
+    "url": "https://github.com/ESUC/ewd-2022/issues"
   },
-  "homepage": "https://github.com/ESUC/ewd-2021#readme",
+  "homepage": "https://github.com/ESUC/ewd-2022#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
   }
