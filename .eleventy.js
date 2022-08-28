@@ -17,6 +17,7 @@ module.exports = function(eleventyConfig) {
         dir: {
             input: "views",
             output: "_site",
+            includes: "_includes"
         },
         pathPrefix: "/ewd-2021/",
         htmlTemplateEngine: "liquid",
