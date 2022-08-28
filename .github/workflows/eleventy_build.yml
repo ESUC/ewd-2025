@@ -7,9 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Build
-        uses: TartanLlama/actions-eleventy@v1.1
+        uses: TartanLlama/actions-eleventy@master
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v1.1.0
+        uses: peaceiris/actions-gh-pages@main
         env:
           PUBLISH_DIR: _site 
           PUBLISH_BRANCH: gh-pages
