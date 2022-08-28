@@ -1,4 +1,4 @@
-# ewd-2021
-Website for 2021 Engineering Welcome Day 
+# ewd-2022
+Website for 2022 Engineering Welcome Day 
 
-ESUC 2021
+ESUC 2022
