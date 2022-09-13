@@ -63,6 +63,7 @@ permalink: "/{{ org.id }}/"
                         {% endif %}
                         {% if org.facebook != "" %}
                         <p>Facebook: <a href="{{ org.facebook }}">{{ org.facebook }}</a></p>
+
                         {% endif %}
                         {% if org.discord != "" %}
                         <p>Join us at: <a href="{{ org.discord }}">{{ org.discord }}</a></p>
@@ -74,6 +75,14 @@ permalink: "/{{ org.id }}/"
                         {% endif %}
                         {% if org.mailing_list != "" %}
                         <p>Sign up! <a href="{{ org.mailing_list }}">{{ org.mailing_list }}</a></p>
+
+                        {% endif %}
+                        {% if org.linkedin != "" %}
+                        <p>LinkedIn: <a href="{{ org.linkedin }}">{{ org.linkedin }}</a></p>
+
+                        {% endif %}
+                        {% if org.slack != "" %}
+                        <p>Slack: <a href="{{ org.slack }}">{{ org.slack }}</a></p>
 
                         {% endif %}
                     </div>
