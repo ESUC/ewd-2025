@@ -9,6 +9,8 @@
     "website": "https://3d4eatucla.github.io/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "3D4EatUCLA",
     "discord": "",
     "facebook": ""
@@ -23,6 +25,8 @@
     "website": "https://aaaeaca.org/bruin-student-chapter/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "aaaea.bruins",
     "discord": "",
     "facebook": "https://www.facebook.com/aaaea.bruins"
@@ -37,6 +41,8 @@
     "website": "https://www.uclaacm.com/",
     "mailing_list": "http://eepurl.com/c5pE6P",
     "linktree": "https://linktr.ee/acmucla",
+    "linkedin": "",
+    "slack": "",
     "instagram": "acm.ucla",
     "discord": "https://bit.ly/ACMdiscord",
     "facebook": "https://www.facebook.com/uclaacm"
@@ -51,6 +57,8 @@
     "website": "http://aiaa.seas.ucla.edu/",
     "mailing_list": "",
     "linktree": "linktr.ee/aiaa_ucla",
+    "linkedin": "",
+    "slack": "",
     "instagram": "aiaa_ucla",
     "discord": "https://discord.gg/VaAMbuQNuh",
     "facebook": ""
@@ -65,6 +73,8 @@
     "website": "http://aiche.seas.ucla.edu/",
     "mailing_list": "",
     "linktree": "https://linktr.ee/aicheatucla",
+    "linkedin": "",
+    "slack": "https://aicheatucla.slack.com/ssb/redirect",
     "instagram": "aicheatucla",
     "discord": "",
     "facebook": ""
@@ -79,6 +89,8 @@
     "website": "http://www.ascebruins.org/",
     "mailing_list": "https://forms.gle/813DvktjP3DytJ6V9",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "asce_bruins",
     "discord": "",
     "facebook": "facebook.com/groups/AsceUcla"
@@ -93,6 +105,8 @@
     "website": "",
     "mailing_list": "",
     "linktree": "https://linktr.ee/asmebruins",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -107,6 +121,8 @@
     "website": "https://www.bruinracing.com/baja/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -121,6 +137,8 @@
     "website": "https://blockchain.ucla.edu/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "https://discord.gg/67hyHyhBSR",
     "facebook": ""
@@ -135,6 +153,8 @@
     "website": "http://www.bruinentrepreneurs.org/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "bruinentrepreneurs",
     "discord": "",
     "facebook": "https://www.facebook.com/BruinEntrepreneurs/"
@@ -149,6 +169,8 @@
     "website": "",
     "mailing_list": "",
     "linktree": "https://linktr.ee/beamucla",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -163,6 +185,8 @@
     "website": "https://www.bruinracing.com/formula/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -177,6 +201,8 @@
     "website": "www.bruinhomesolutions.com",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "uclabhs",
     "discord": "",
     "facebook": "https://www.facebook.com/bruinhomesolutions"
@@ -191,6 +217,8 @@
     "website": "https://linktr.ee/lablueprint",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -205,6 +233,8 @@
     "website": "http://bmes.seas.ucla.edu/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "bmesucla",
     "discord": "",
     "facebook": "https://www.facebook.com/groups/uclabmes"
@@ -219,6 +249,8 @@
     "website": "https://bruinspace.com/",
     "mailing_list": "",
     "linktree": "https://linktr.ee/uclabruinspace",
+    "linkedin": "",
+    "slack": "",
     "instagram": "uclabruinspace",
     "discord": "",
     "facebook": ""
@@ -233,6 +265,8 @@
     "website": "https://www.cruxucla.com/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "https://join.slack.com/t/crux-ucla/shared_invite/zt-1ffrir236-x1NGq5K8pZzDLA1XuaNXTg",
     "instagram": "cruxucla",
     "discord": "",
     "facebook": "https://www.facebook.com/CruXUCLA"
@@ -247,6 +281,8 @@
     "website": "",
     "mailing_list": "https://tinyurl.com/joindbfucla",
     "linktree": "https://linktr.ee/dbfatucla",
+    "linkedin": "",
+    "slack": "",
     "instagram": "dbf_ucla",
     "discord": "",
     "facebook": ""
@@ -261,6 +297,8 @@
     "website": "http://designcreatesolar.org/",
     "mailing_list": "https://sites.google.com/view/designcreatesolar/join-us",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "designcreatesolar",
     "discord": "",
     "facebook": ""
@@ -274,7 +312,9 @@
     "table": 11,
     "website": "http://www.esuc.ucla.edu/",
     "mailing_list": "https://tinyurl.com/ESUC-Mailing-List",
-    "linktree": "",
+    "linktree": "https://esucla.carrd.co/",
+    "linkedin": "https://www.linkedin.com/company/esuc/",
+    "slack": "",
     "instagram": "esucla",
     "discord": "",
     "facebook": ""
@@ -289,6 +329,8 @@
     "website": "https://www.ewb-ucla.org/",
     "mailing_list": "https://docs.google.com/forms/d/1TRSM3cV5p9NOXER9U0Lvx3FDsyfnM2ApbN-VDsC54MM/edit?usp=sharing",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "ewbucla",
     "discord": "https://uclaewb.slack.co",
     "facebook": ""
@@ -303,6 +345,8 @@
     "website": "https://www.exploretech.la/",
     "mailing_list": "",
     "linktree": "linktr.ee/exploretech.la",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -317,6 +361,8 @@
     "website": "",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "https://discord.gg/deK36Bb",
     "facebook": "https://www.facebook.com/hkn.ucla/?ref=page_internal"
@@ -331,6 +377,8 @@
     "website": "https://linktr.ee/uclaieee",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -345,6 +393,8 @@
     "website": "http://www.ieeewatt.ucla.edu/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -359,6 +409,8 @@
     "website": "https://ucla-ispe.weebly.com/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -373,6 +425,8 @@
     "website": "https://iteucla.square.site/",
     "mailing_list": "http://eepurl.com/gE3T35",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "ite_ucla",
     "discord": "",
     "facebook": "https://www.facebook.com/iteatucla"
@@ -387,6 +441,8 @@
     "website": "http://www.seas.ucla.edu/mrs/",
     "mailing_list": "",
     "linktree": "LinkTree: https://linktr.ee/mrsucla",
+    "linkedin": "",
+    "slack": "",
     "instagram": "mrsucla",
     "discord": "",
     "facebook": "https://www.facebook.com/MRSUCLA/"
@@ -401,6 +457,8 @@
     "website": "",
     "mailing_list": "https://docs.google.com/forms/d/e/1FAIpQLSfMp0p7tqPaNZqq-eQ3ery1VbtPNfn7Q0rvmOGwC6DG_oCreg/viewform",
     "linktree": "https://linktr.ee/novaforgood",
+    "linkedin": "",
+    "slack": "",
     "instagram": "novaforgood",
     "discord": "",
     "facebook": "https://www.facebook.com/novaforgood"
@@ -413,8 +471,10 @@
     "location": "Court of Sciences",
     "table": 4,
     "website": "https://nsbebruins.wixsite.com/nsbe",
-    "mailing_list": "https://www.linkedin.com/in/nsbe-at-ucla",
+    "mailing_list": "",
     "linktree": "",
+    "linkedin": "https://www.linkedin.com/in/nsbe-at-ucla",
+    "slack": "",
     "instagram": "uclansb",
     "discord": "",
     "facebook": ""
@@ -429,6 +489,8 @@
     "website": "",
     "mailing_list": "",
     "linktree": "https://linktr.ee/piesucla",
+    "linkedin": "",
+    "slack": "",
     "instagram": "",
     "discord": "",
     "facebook": ""
@@ -443,6 +505,8 @@
     "website": "https://www.phirhobruins.com/home",
     "mailing_list": "tinyurl.com/phirhof22",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "phirhobruins",
     "discord": "",
     "facebook": ""
@@ -457,6 +521,8 @@
     "website": "http://rocketproject.seas.ucla.edu/",
     "mailing_list": "https://forms.gle/QhQN7UHEFEhDzdmi9",
     "linktree": "https://linktr.ee/rocketprojectatucla",
+    "linkedin": "",
+    "slack": "",
     "instagram": "uclarocketproject",
     "discord": "",
     "facebook": ""
@@ -471,6 +537,8 @@
     "website": "https://www.bruinracing.com/smv/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "bruinsupermileage",
     "discord": "",
     "facebook": ""
@@ -485,6 +553,8 @@
     "website": "https://uclasoles.org/",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "uclasoles",
     "discord": "",
     "facebook": "https://www.facebook.com/uclasoles/"
@@ -499,6 +569,8 @@
     "website": "http://www.thetataubruins.org/",
     "mailing_list": "",
     "linktree": "https://linktr.ee/UCLAThetaTau",
+    "linkedin": "",
+    "slack": "",
     "instagram": "uclathetatau",
     "discord": "",
     "facebook": "https://www.facebook.com/ThetaTauUCLA"
@@ -513,6 +585,8 @@
     "website": "https://uas.seas.ucla.edu/",
     "mailing_list": "https://forms.gle/MfCPJT7Qf5WBKZSt8",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "uasatucla",
     "discord": "",
     "facebook": ""
@@ -527,6 +601,8 @@
     "website": "https://upe.seas.ucla.edu/",
     "mailing_list": "https://ucla.us12.list-manage.com/subscribe/post?u=52303af36ff4cfc1a50526bf0&id=021bff69bc",
     "linktree": "https://linktr.ee/upeucla",
+    "linkedin": "https://www.linkedin.com/company/73796748/",
+    "slack": "",
     "instagram": "upeucla",
     "discord": "https://discord.gg/4WTPEgb2x6",
     "facebook": "https://www.facebook.com/upeucla"
@@ -541,6 +617,8 @@
     "website": "https://uclachiepsilon.github.io",
     "mailing_list": "",
     "linktree": "",
+    "linkedin": "",
+    "slack": "",
     "instagram": "uclaxe",
     "discord": "",
     "facebook": ""
