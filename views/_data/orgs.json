@@ -622,5 +622,21 @@
     "instagram": "uclaxe",
     "discord": "",
     "facebook": ""
+  },
+  {
+    "id": "uip",
+    "full_name": "Career Center & UIP/URP",
+    "short_name": "Career Center",
+    "description": "The Career Center along with the Undergraduate Internship Program and the Undergraduate Research Program both provide resources that help engineering students be on that path to securing a career in engineering.",
+    "location": "Court of Sciences",
+    "table": "1-2",
+    "website": "https://www.seasoasa.ucla.edu/uip/",
+    "mailing_list": "",
+    "linktree": "",
+    "linkedin": "",
+    "slack": "",
+    "instagram": "",
+    "discord": "",
+    "facebook": ""
   }
 ]
