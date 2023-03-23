@@ -214,14 +214,7 @@ textarea {
     text-shadow: none !important;
   }
 
-  a {
-    color: #005785;
-  }
-
-  a:hover {
-    color: #82cbed;
-  }
-
+  a,
   a:visited {
     text-decoration: underline;
   }
