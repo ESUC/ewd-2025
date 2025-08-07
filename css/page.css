@@ -612,3 +612,20 @@ li.side-nav {
   color: #2E2E2E;
   font-weight: 600;
 }
+
+.update-notice {
+  margin: 1rem 0 1.5rem 0;
+  text-align: center;
+}
+
+.update-badge {
+  display: inline-block;
+  background: #f8f9fa;
+  color: #6c757d;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 600;
+  border: 1px solid #dee2e6;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
