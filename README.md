@@ -1,4 +1,4 @@
 # ewd-2023
-Website for 2023 Engineering Welcome Day 
+Website for 2025 Engineering Welcome Day 
 
-ESUC 2023
+ESUC 2025

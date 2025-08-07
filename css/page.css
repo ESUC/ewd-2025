@@ -553,7 +553,7 @@ li.side-nav {
   display: inline-block;
   margin-top: 1.2em;
   padding: 0.85em 2.2em;
-  background: #648bba;
+  background: #79acc2;
   color: #fff;
   font-weight: 700;
   font-size: 1.15em;
@@ -567,8 +567,48 @@ li.side-nav {
   letter-spacing: 0.03em;
 }
 .ewd-btn:hover, .ewd-btn:focus {
-  background: rgb(33, 85, 148);
+  background: #648bba;
   box-shadow: 0 4px 16px rgba(143,202,228,0.22);
   transform: translateY(-2px) scale(1.03);
   color: #fff;
+}
+
+.ewd-date, .ewd-time {
+  display: inline-block;
+  background: #648bba;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.08em;
+  border-radius: 2em;
+  padding: 0.25em 1em 0.25em 0.9em;
+  margin: 0 0.3em 0 0.3em;
+  box-shadow: 0 1px 4px rgba(143,202,228,0.10);
+  letter-spacing: 0.01em;
+  vertical-align: middle;
+  transition: background 0.2s;
+}
+.ewd-date:hover, .ewd-time:hover {
+  background: rgb(33, 85, 148);
+}
+
+.directions-list {
+  list-style: disc;
+  padding-left: 2rem;
+  margin: 1.5rem 0;
+}
+
+.directions-list li {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  color: #484848;
+}
+
+.directions-list li::marker {
+  color: #648bba;
+  font-weight: bold;
+}
+
+.directions-list li strong {
+  color: #2E2E2E;
+  font-weight: 600;
 }
