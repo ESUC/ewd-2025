@@ -14,7 +14,7 @@
 
   {% include dependencies.html %}
 
-  <link rel="stylesheet" href="css/page.css">
+  <link rel="stylesheet" href="{{ "/css/page.css" | url }}">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
     integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
     crossorigin="anonymous"></script>
@@ -77,8 +77,8 @@
 
   {% include footer.html %}
 
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="{{ "/js/plugins.js" | url }}"></script>
+  <script src="{{ "/js/main.js" | url }}"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
