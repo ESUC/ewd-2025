@@ -764,3 +764,19 @@ li.side-nav {
   }
 }
 
+/* Tooltip for org names when clicking table numbers */
+.org-tooltip {
+  position: absolute;
+  transform: translateX(-50%);
+  background: #111827;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  z-index: 1000;
+  font-size: 14px;
+  line-height: 1.2;
+  pointer-events: none;
+}
+.org-tooltip.hidden { display: none; }
+
