@@ -157,7 +157,56 @@ window.addEventListener('DOMContentLoaded', () => {
         // Mark this organization as processed
         processedNames.add(orgName);
     });
+
+    // Simple tooltip for clicking table numbers to reveal organization names
+    const tooltipEl = document.createElement('div');
+    tooltipEl.className = 'org-tooltip hidden';
+    tooltipEl.setAttribute('role', 'status');
+    document.body.appendChild(tooltipEl);
+
+    let tooltipAnchor = null;
+
+    const hideTooltip = () => {
+        if (!tooltipEl.classList.contains('hidden')) {
+            tooltipEl.classList.add('hidden');
+            tooltipEl.textContent = '';
+            tooltipAnchor = null;
+        }
+    };
+
+    const showTooltip = (anchorEl, text) => {
+        tooltipEl.textContent = text;
+        const rect = anchorEl.getBoundingClientRect();
+        const top = window.scrollY + rect.top - tooltipEl.offsetHeight - 8;
+        const left = window.scrollX + rect.left + rect.width / 2;
+        tooltipEl.style.top = `${Math.max(0, top)}px`;
+        tooltipEl.style.left = `${Math.max(8, left)}px`;
+        tooltipEl.classList.remove('hidden');
+        tooltipAnchor = anchorEl;
+    };
+
+    document.addEventListener('click', (event) => {
+        const target = event.target;
+        if (target && target.classList && target.classList.contains('table-number')) {
+            const parent = target.closest('.org-item');
+            const nameEl = parent ? parent.querySelector('.org-name') : null;
+            const name = nameEl ? nameEl.textContent.trim() : '';
+            if (!name) return;
+            if (tooltipAnchor === target && !tooltipEl.classList.contains('hidden')) {
+                hideTooltip();
+            } else {
+                showTooltip(target, name);
+            }
+        } else if (!tooltipEl.contains(target)) {
+            hideTooltip();
+        }
+    });
+
+    window.addEventListener('scroll', hideTooltip, { passive: true });
+    window.addEventListener('resize', hideTooltip);
 });
+
+// ADDED
 
 function search() {
     let input = document.getElementById("search").value.replace(/[^0-9a-z]/gi, '').toLowerCase();
