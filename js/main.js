@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const getAllocationFor = (name) => {
             const n = name.toLowerCase();
             if (n.includes('association for computing machinery') || n.includes('(acm)') || n.includes(' acm')) return 3;
-            if (n.includes('society of women engineers')) return 3;
+            if (n.includes('society of women engineers')) return 1;
             if (n.includes('institute of electrical and electronics engineers') || n.includes(' ieee')) return 2;
             return 1;
         };
@@ -68,14 +68,13 @@ window.addEventListener('DOMContentLoaded', () => {
     const getAllocationFor = (name) => {
         const n = name.toLowerCase();
         if (n.includes('association for computing machinery') || n.includes('(acm)') || n.includes(' acm')) return 3;
-        if (n.includes('society of women engineers')) return 3;
+        if (n.includes('society of women engineers')) return 1;
         if (n.includes('institute of electrical and electronics engineers') || n.includes(' ieee')) return 2;
         return 1;
     };
 
     const getTableSharing = (name) => {
         const n = name.toLowerCase();
-        if (n.includes('glitch') || n.includes('la hacks')) return 'glitch-lahacks';
         if (n.includes('out in stem') || n.includes('quantum computing')) return 'outinstem-quantum';
         return null;
     };
