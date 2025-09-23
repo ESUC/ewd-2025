@@ -75,7 +75,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const getTableSharing = (name) => {
         const n = name.toLowerCase();
-        if (n.includes('out in stem') || n.includes('quantum computing')) return 'outinstem-quantum';
         return null;
     };
 
@@ -111,6 +110,18 @@ window.addEventListener('DOMContentLoaded', () => {
         // Skip if we've already processed this organization name
         if (processedNames.has(orgName)) {
             console.log(`Skipping duplicate: ${nameEl.textContent.trim()}`);
+            return;
+        }
+
+        // Special case: Out in STEM at UCLA gets a fixed table assignment
+        if (orgName.includes('out in stem')) {
+            badgeEl.textContent = 'Table 42';
+            console.log(`Assigned ${nameEl.textContent.trim()} to Table 42 (fixed)`);
+            // Ensure no one else receives Table 42 later
+            if (nextNum <= 42) {
+                nextNum = 43;
+            }
+            processedNames.add(orgName);
             return;
         }
 
