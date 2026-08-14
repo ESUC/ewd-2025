@@ -22,7 +22,7 @@ module.exports = function(eleventyConfig) {
             output: "_site",
             includes: "_includes"
         },
-        pathPrefix: "/ewd-2026/",
+        pathPrefix: "/ewd-2025/",
         htmlTemplateEngine: "liquid",
         markdownTemplateEngine: "liquid",
     }
