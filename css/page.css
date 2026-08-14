@@ -181,10 +181,10 @@ div {
 section {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding: 1.5rem;
-    background: #fafafa;
+    padding: 1.5rem 1.75rem;
+    background: #f7fafc;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
 section h1 {
@@ -549,6 +549,40 @@ li.side-nav {
 .t-yhp .t-yhp-0lax{text-align:left;vertical-align:top}
 .tg .tg-hv4g{background-color:#D0E0E3;font-weight:bold;text-align:center;vertical-align:top}
 
+.event-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+  margin: 0.5rem 0 1.75rem;
+}
+
+.event-facts p {
+  margin-bottom: 0;
+}
+
+section .event-fact-label {
+  margin: 0;
+  font-size: 0.85em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #648bba;
+}
+
+section .event-fact-value {
+  margin: 0.15rem 0 0;
+  font-size: 1.45em;
+  font-weight: 700;
+  color: #2E2E2E;
+  line-height: 1.25;
+}
+
+section .event-fact-note {
+  margin: 0.2rem 0 0;
+  color: #484848;
+  font-weight: 400;
+}
+
 .ewd-btn {
   display: inline-block;
   margin-top: 1.2em;
@@ -646,137 +680,3 @@ li.side-nav {
   /* map-pin icon */
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%238FCAE4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M21 10c0 6-9 13-9 13S3 16 3 10a9 9 0 1 1 18 0Z'/><circle cx='12' cy='10' r='3'/></svg>");
 }
-
-/* Organizations Section Styling */
-.orgs-container {
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.dept-section {
-  margin-bottom: 2rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border: 1px solid #dee2e6;
-}
-
-.dept-section:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-}
-
-.dept-title {
-  color: #2E2E2E;
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 3px solid #8FCAE4;
-  display: inline-block;
-}
-
-.orgs-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 0.75rem;
-}
-
-.org-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: white;
-  padding: 0.75rem 1rem;
-  border-radius: 8px;
-  /* remove side line accent */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  transition: all 0.2s ease;
-  position: relative;
-}
-
-.org-item::before {
-  content: '';
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #3498db;
-  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
-}
-
-.org-item:hover {
-  transform: translateX(4px);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-.org-item:hover::before {
-  background: #1a5490;
-  box-shadow: 0 0 0 3px rgba(26, 84, 144, 0.2);
-}
-
-.org-name {
-  font-weight: 500;
-  color: #2c3e50;
-  flex: 1;
-  margin-right: 1rem;
-  padding-left: 16px; /* spacing so text clears the dot */
-}
-
-.table-number {
-  background: #3498db;
-  color: white;
-  padding: 0.25rem 0.75rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  min-width: 50px;
-  text-align: center;
-  transition: background-color 0.2s ease;
-}
-
-.org-item:hover .table-number {
-  background: #1a5490;
-}
-
-/* Responsive design */
-@media (max-width: 768px) {
-  .orgs-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .org-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-  }
-  
-  .org-name {
-    margin-right: 0;
-  }
-  
-  .table-number {
-    align-self: flex-end;
-  }
-}
-
-/* Tooltip for org names when clicking table numbers */
-.org-tooltip {
-  position: absolute;
-  transform: translateX(-50%);
-  background: #111827;
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 6px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-  z-index: 1000;
-  font-size: 14px;
-  line-height: 1.2;
-  pointer-events: none;
-}
-.org-tooltip.hidden { display: none; }
-
