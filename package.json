@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ESUC/ewd-2022.git"
+    "url": "git+https://github.com/ESUC/ewd-2026.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ESUC/ewd-2022/issues"
+    "url": "https://github.com/ESUC/ewd-2026/issues"
   },
-  "homepage": "https://github.com/ESUC/ewd-2022#readme",
+  "homepage": "https://github.com/ESUC/ewd-2026#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0"
   }
