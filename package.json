@@ -1,7 +1,7 @@
 {
-  "name": "ewd-2022",
+  "name": "ewd-2026",
   "version": "1.0.0",
-  "description": "Website for 2022 Engineering Welcome Day",
+  "description": "Website for 2026 Engineering Welcome Day",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

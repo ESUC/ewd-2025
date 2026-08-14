@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>EWD 2025</title>
+  <title>EWD 2026</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,20 +30,15 @@
   <main id="content-wrapper" class="content">
     <div id="sidebar-wrapper">
       <div id="sticky-sidebar" class="sidebar">
-        <h2>EWD 2025</h2>
+        <h2>EWD 2026</h2>
         <ol>
           <li class="side-nav"><a href="#about">About</a></li>
-          <li class="side-nav"><a href="#rsvp">RSVP</a></li>
+          <li class="side-nav"><a href="#registration">Registration</a></li>
           <li class="side-nav"><a href="#directions">Directions</a></li>
           <li class="side-nav"><a href="#instructions">Schedule</a></li>
+          <li class="side-nav"><a href="#orgs">Community Expo</a></li>
+          <li class="side-nav"><a href="#more-events">More Activities</a></li>
           <li class="side-nav"><a href="#faq">FAQ</a></li>
-          <!-- Removed Schedule link because the section is not rendered -->
-          <!-- <li class="side-nav"><a href="#schedule">Schedule</a></li> -->
-          <!--
-          <li class="side-nav"><a href="#speakers">Speakers</a></li>
-          <li class="side-nav"><a href="#maps">Maps</a></li>
-        -->
-          <li class="side-nav"><a href="#orgs">Organizations</a></li>
         </ol>
       </div>
     </div>
@@ -51,27 +46,6 @@
       {% include info.html %}
     </div>
   </main>
-  <!-- <div class="content">
-    <hr>
-    <div><input type="text" id="search" onkeyup="search()" placeholder="Search for an organization..."></div>
-    <div class="card-grid">
-      {% for org in orgs %}
-      
-      <div class="card {{ org.id }}" id="{{ org.id }}" data-names="{{ org.full_name }} {{ org.short_name }}" onclick="location.href='{{ org.id }}';">
-        <div class="card-img-wrapper"><img src="{{ "/data/" | append: org.id | append: "/logo.png" | url}}"
-            class="card-img"></div>
-        <div class="center">
-          <div class="card-text">
-            <b>{{ org.full_name }}</b><br>
-            {{ org.location }}, Table {{ org.table }}
-            <br>
-            <a href="{{ org.id }}">More Info</a>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div> -->
 
   <br>
   <br>
@@ -82,7 +56,6 @@
   <script src="{{ "/js/plugins.js" | url }}"></script>
   <script src="{{ "/js/main.js" | url }}"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-178402682-1', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
